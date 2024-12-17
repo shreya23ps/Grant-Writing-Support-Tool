@@ -16,7 +16,7 @@ Run the script: python grant_suggest.py
 
 Example Prompt
 "You are an expert in grant writing. Review the following grant proposal and provide 
-clear, actionable suggestions to improve clarity, tone, and completeness."
+clear, actionable suggestions to improve clarity, tone, and completeness." 
 
 Future Enhancements:
 Integrate with a frontend interface for real-time suggestions.
