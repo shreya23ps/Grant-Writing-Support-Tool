@@ -2,7 +2,6 @@ import openai
 import os
 from dotenv import load_dotenv
 
-# Load API key from .env file
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -25,7 +24,7 @@ def get_grant_suggestions(grant_text):
         return f"Error: {str(e)}"
 
 if _name_ == "_main_":
-    # Example usage
+   
     print("Enter your grant proposal text (end input with Ctrl+D):")
     grant_text = ""
     try:
