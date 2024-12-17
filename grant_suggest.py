@@ -24,7 +24,7 @@ def get_grant_suggestions(grant_text):
     except Exception as e:
         return f"Error: {str(e)}"
 
-if _name_ == "_main_":
+if _name_ == "_main_": 
    
     print("Enter your grant proposal text (end input with Ctrl+D):")
     grant_text = ""
